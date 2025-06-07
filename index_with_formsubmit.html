@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chipalicious - Love at First Bite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="CHIPALICIOUS LOGO.png" alt="Chipalicious Logo">
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Love at First Bite</h1>
+                <p>Loading deliciousness onto chips at events SA-wide since 2017—now that's Chipalicious!</p>
+                <div class="cta-buttons">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#enquiry" class="btn btn-secondary">Catering and Enquiries</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Our Story</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>When Chipalicious launched in 2017, we had one mission: to elevate the humble chip into something extraordinary. Located in Adelaide, we've quickly become a fixture at sporting events, festivals, and other gatherings across South Australia.</p>
+                        <p>Our secret? It's quite simple - our unwavering committment to quality and our love for the community. Our food and friendly faces are a reflection of these values, and we take pride in communicating our values to South Australians through the food that we serve.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu-grid">
+                    <!-- Menu items will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2>What Our Customers Say</h2>
+                <div class="reviews-slider">
+                    <!-- Reviews will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>Lola - Owner</p>
+                        <p>Phone: <a href="tel:0413526124">0413 526 124</a></p>
+                        <p>Email: <a href="mailto:chipalicious17@gmail.com">chipalicious17@gmail.com</a></p>
+                        <div class="availability-notice">
+                            <p>Due to high demand, our availability can be limited. We recommend booking well in advance to secure your preferred date. We aim to respond to all enquiries within 2 business days. Please note that no bookings are final until confirmed by our team.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/chipaliciousaustralia" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg class="facebook-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                </svg>
+                                Follow us on Facebook
+                            </a>
+                        </div>
+                    </div>
+                    <div id="enquiry" class="enquiry-form">
+                        <h3>Catering and Enquiries</h3>
+                        
+<form action="https://formsubmit.co/chipalicious17@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+        <label for="event-date">Event Date <span class="optional">(optional)</span></label>
+        <input type="date" id="event-date" name="event-date">
+    </div>
+    <div class="form-group">
+        <label for="message">Event Details</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Chipalicious. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
